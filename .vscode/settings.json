@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/dist": true
+  },
+  "path-autocomplete.pathMappings": {
+    "/": "${workspace}/src",
+    "src": "${workspace}/src",
+    "renderer": "${workspace}/src/renderer",
+    "main": "${workspace}/src/main",
+    "pages": "${workspace}/src/renderer/components/pages",
+    "views": "${workspace}/src/renderer/components/views",
+    "assets": "${workspace}/src/renderer/assets"
+  }
+}

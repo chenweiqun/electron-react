@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "main/*": ["src/main/*"],
+      "renderer/*": ["src/renderer/*"],
+      "pages/*": ["src/renderer/components/pages/*"],
+      "views/*": ["src/renderer/components/views/*"],
+      "assets/*": ["src/renderer/assets/*"]
+    }
+  }
+}
